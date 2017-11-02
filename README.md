@@ -24,21 +24,24 @@ System.out.println("Sekarang ada di index ke "+ a);
 
 4. Contohnya saya punya tabel seperti berikut:
 
-Product
+### Product
+
 | id              | nama            | harga           |
 | :-------------  | :-------------  | :-------------  |
 | 001             | Product 001     |        Rp.500   |
 | 002             | Product 002     |       Rp.10.000 |
 | 003             | Product 003     |       Rp.15.000 |
 
-Transaksi
+### Transaksi
+
 | id     | cust_id | product_id   |           jual  |
 | :------| :-----  | :----------- | :-------------  |
 | 001    | 001     |         001  |        Rp.600   |
 | 002    | 001     |         001  |       Rp.10.000 |
 | 003    | 001     |         002  |       Rp.15.000 |
 
-Customer
+### Customer
+
 | id              | nama            |
 | :-------------  | :-------------  |
 | 001             | Agus            |
