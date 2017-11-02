@@ -20,20 +20,7 @@ while(a < 10)
 System.out.println("Sekarang ada di index ke "+ a);
 ```
 
-3. Apa perbedaan antara `=` dengan `==` contohnya seperti berikut:
-
-a. 
-
-```java
-boolean a;
-a = false;
-```
-b. 
-
-```java
-boolean a; 
-a == false;
-```
+3. Apa perbedaan operator `=` dengan `==` :
 
 4. Contohnya saya punya tabel seperti berikut:
 
