@@ -8,7 +8,7 @@ Kerjakan **tanpa menggunakan Komputer/Laptop**, **tidak boleh menggunakan alat b
 int a = 0;
 
 if(a == 10)
-System.out.print(a);
+  System.out.print(a);
 System.out.println("10");
 ```
 
@@ -17,32 +17,32 @@ System.out.println("10");
 ```java
 int a = 0;
 while(a < 10)
-System.out.println("Sekarang ada di index ke "+ a);
+  System.out.println("Sekarang ada di index ke "+ a);
 ```
 
 3. Apa perbedaan operator `=` dengan `==` :
 
 4. Contohnya saya punya tabel seperti berikut:
 
-### Product
+### table mst_products
 
-| id              | nama            | harga           |
+| id              | name            | price           |
 | :-------------  | :-------------  | :-------------  |
 | 001             | Product 001     |        Rp.500   |
 | 002             | Product 002     |       Rp.10.000 |
 | 003             | Product 003     |       Rp.15.000 |
 
-### Transaksi
+### table trx_transactions
 
-| id     | cust_id | product_id   |           jual  |
+| id     | cust_id | product_id   |           sell  |
 | :------| :-----  | :----------- | :-------------  |
 | 001    | 001     |         001  |        Rp.600   |
 | 002    | 001     |         001  |       Rp.10.000 |
 | 003    | 001     |         002  |       Rp.15.000 |
 
-### Customer
+### table mst_customers
 
-| id              | nama            |
+| id              | name            |
 | :-------------  | :-------------  |
 | 001             | Agus            |
 | 002             | Rohman          |
